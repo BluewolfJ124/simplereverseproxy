@@ -2,7 +2,7 @@ services:
   - name: wowmow
     type: web
     plan: starter
-    region: frankfurt
+    region: singapore
     runtime: ruby
     buildCommand: render/build.sh
     startCommand: render/start.sh
